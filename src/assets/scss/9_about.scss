@@ -1,0 +1,40 @@
+.about {
+    margin: 50px 0;
+}
+.about__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.about__left {
+    background-color: #eaf9ed;
+    padding: 20px;
+}
+.about__top {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.about__top--left {
+}
+.about__img {
+    border-radius: 50%;
+}
+.about__top--right {
+}
+.about__name {
+    font-weight: 600;
+}
+.about__star {
+}
+.about__bottom {
+}
+.about__text {
+    line-height: 24px;
+}
+.about__ul {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 20px;
+}
