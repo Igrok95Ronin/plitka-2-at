@@ -1,0 +1,26 @@
+.sealing {
+}
+.sealing__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.sealing__left {
+}
+.sealing__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.sealing__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sealing__title {
+    @include h2Title;
+}
+.sealing__txt {
+    line-height: 24px;
+}
