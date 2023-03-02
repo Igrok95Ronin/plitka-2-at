@@ -55,5 +55,11 @@ $mainColor : #196db6;
     &:hover {
         color: #fff;
         background-color: #093f6f;
+        letter-spacing: 1.5px;
+        span{
+            &::before {
+                background-image: url("../icons/telephone-fill.svg");
+            }
+        }
     }
 }
