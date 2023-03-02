@@ -1,0 +1,22 @@
+.quality {
+    background-color: $mainColor;
+    color: #fff;
+    padding: 10px 0;
+}
+.quality__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
+}
+.quality__ul {
+    font-size: 25px;
+    list-style: none;
+    list-style-position: inside;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.quality__btn {
+    @include btn;
+}
