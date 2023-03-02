@@ -1,0 +1,18 @@
+.call {
+    margin: 50px 0;
+    background-color: $mainColor;
+    color: #fff;
+    padding: 10px 0;
+}
+.call__box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.call__dscr {
+    font-size: 24px;
+}
+.call__btn {
+    @include btn;
+}

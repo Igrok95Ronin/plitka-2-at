@@ -1,0 +1,25 @@
+.everyHouse {
+}
+.everyHouse__title {
+    @include h2Title;
+}
+.everyHouse__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.everyHouse__left {
+}
+.everyHouse__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.everyHouse__right {
+    display: flex;
+    align-items: center;
+}
+.everyHouse__txt {
+    line-height: 24px;
+}
